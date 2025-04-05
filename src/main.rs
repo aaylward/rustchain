@@ -20,6 +20,7 @@ fn read_words(filename: String) -> Vec<String> {
     result
 }
 
+// TODO: doc + tests
 fn words_are_one_away(first: &str, second: &str) -> bool {
     if first.len() != second.len() {
         return false;
@@ -105,9 +106,11 @@ fn main() {
         return;
     }
 
-    //let path = "/usr/share/dict/words";
-    let path = "/Volumes/Envoy Ultra 4TB/words/oed_2/oed_words.txt";
+    // TODO: dictionary path from args
+    let path = "/usr/share/dict/words";
+    //let path = "/Volumes/Envoy Ultra 4TB/words/oed_2/oed_words.txt";
 
+    // TODO: prebuilt dictionary + graph?
     println!("Reading dictionary from \"{}\"...", path);
     let words: Vec<String> = read_words(String::from(path))
         .iter()

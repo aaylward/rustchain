@@ -30,7 +30,7 @@ cuffin
 muffin
 ```
 
-Wtf is stufre? [OED](https://www.oed.com/search/dictionary/?scope=Entries&q=stufre) says "variant or stiver, n. Historical. A small coin (originally silver)".
+What is "stufre"? [OED](https://www.oed.com/search/dictionary/?scope=Entries&q=stufre) says "variant or stiver, n. Historical. A small coin (originally silver)".
 
 ## Implementation notes
 - I used an adjacency list to model the graph of valid transformations between words.
